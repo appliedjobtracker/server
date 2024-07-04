@@ -214,3 +214,7 @@ SIMPLE_JWT = {
     'SLIDING_TOKEN_REFRESH_LIFETIME': timedelta(days=1),
 }
 
+# In settings.py, add at the top
+import os
+print("PYTHONPATH:", os.environ.get('PYTHONPATH'))
+print("Shop module path exists:", os.path.exists('/opt/render/project/src/shop'))
