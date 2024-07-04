@@ -1,0 +1,11 @@
+django-filter
+Pillow
+djangorestframework
+djangorestframework-simplejwt
+django-cors-headers
+gunicorn
+setuptools
+requests
+python-decouple
+python-dotenv
+django-storages
